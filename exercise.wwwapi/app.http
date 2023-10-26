@@ -1,0 +1,15 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+
+@token = eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3RyaW5nIiwiZXhwIjoxNjk4MzA1OTM5fQ.F4nBQMGWYnBmGauM7zSW6Yo7sXDPot-w15KRFsiwpd8diuPftabBhwyj6nQTAGY5ARfdzO5xgrzEej1n7OZjhw
+@hostname=localhost
+@port=7233
+##
+
+GET https://{{hostname}}:{{port}}/users
+Authorization: Bearer {{token}}
+
+{
+
+}
+
